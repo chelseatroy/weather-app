@@ -4,6 +4,8 @@ gem 'open-weather'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'geocoder'
 
+gem 'rails_12factor', group: :production
+
 gem 'rails', '4.1.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
