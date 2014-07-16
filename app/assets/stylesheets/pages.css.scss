@@ -1,3 +1,67 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1, h2{
+  text-align: center;
+}
+
+.thunderstorm{
+  background-image: image-url("thunderstorm.png");
+  color: white;
+}
+.drizzle{
+  background-image: image-url("drizzle.png");
+  color: white;
+}
+.rain{
+  background-image: image-url("rain.png");
+  color: white;
+}
+.snow{
+  background-image: image-url("snow.png");
+  color: white;
+}
+.fog{
+  background-image: image-url("fog.png");
+  color: white;
+}
+.tornado{
+  background-image: image-url("extreme-weather.png");
+  color: white;
+}
+.clouds{
+  background-image: image-url("cloudy.png");
+  color: white;
+}
+.hurricane{
+  background-image: image-url("exreme-weather.png");
+  color: white;
+}
+.cold{
+  background-image: image-url("cold.png");
+  color: white;
+}
+.hot{
+  background-image: image-url("hot.png");
+  color: white;
+}
+.wind{
+  background-image: image-url("wind.png");
+  color: white;
+}
+.hail{
+  background-image: image-url("hail.png");
+  color: white;
+}
+.sunny{
+  background-image: image-url("sunny.png");
+  color: white;
+}
+
+
+
+
+  
+
+
+
