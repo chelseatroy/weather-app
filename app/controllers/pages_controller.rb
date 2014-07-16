@@ -3,9 +3,7 @@ require 'open_weather'
 class PagesController < ApplicationController
 
   def weather
-    @results = Geocoder.search("72.229.28.185")
-
-    # request.remote_ip
+    @results = Geocoder.search(request.remote_ip)
 
     @weather_info = OpenWeather::Current.city("#{@results[0].data["city"]}, #{@results[0].data["region_name"]}")
 
