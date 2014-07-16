@@ -1,3 +1,4 @@
-<h1> The temperature in your current location of <%= @results.city %>is <%= @temp_celsius %> degrees celsius (<%= @temp_farenheit %> degrees Farenheit).</h1>
 
-<h2><%= @results %></h2>
+<h2>You are located in <%= @results[0].data["city"] %></h1>
+
+<h2>The temperature where you are is <%= @temp_celsius %> degrees celsius (which is <%= @temp_farenheit %> degrees farenheit).</h2>
