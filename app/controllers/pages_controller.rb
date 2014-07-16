@@ -16,7 +16,7 @@ class PagesController < ApplicationController
     @low_celsius = (@weather_info["main"]["temp_max"].to_f-273).round
     @low_farenheit = (1.8*@low_celsius + 32).round(2)
 
-    @three_digit_code = @weather_info["cod"].to_i
+    @three_digit_code = @weather_info["weather"][0]["id"].to_i
     case @three_digit_code
       when 200, 201, 202, 210, 211, 212, 221, 230, 231, 232, 960, 961
         @weather_code = "thunderstorm"
