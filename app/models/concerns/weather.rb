@@ -3,7 +3,7 @@ class Weather
   attr_reader :results, :city, :weather_info, :temp_celsius, :temp_farenheit, :high_celsius, :high_farenheit, :low_celsius, :low_farenheit
 
   def initialize
-    @results = Geocoder.search("50.178.239.192")
+    @results = Geocoder.search(request.remote_ip)
     @city = @results[0].data["city"]
     @weather_info = OpenWeather::Current.city("#{@results[0].data["city"]}, #{@results[0].data["region_name"]}")
     @temp_celsius = convert_to_celsius(@weather_info["main"]["temp"])
