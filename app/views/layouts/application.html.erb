@@ -6,9 +6,9 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%= @weather_code %>">
 
-<%= yield %>
-
+<body class="<%= @weather.weather_code %>">
+  <%= yield %>
 </body>
+
 </html>

@@ -1,9 +1,9 @@
-<h1>Weather in <%= @results[0].data["city"] %>:</h1>
+<h1>Weather in <%= @weather.city %>:</h1>
 
-<h2>Current Temperature:<br> <%= @temp_farenheit %> degrees farenheit<br> (<%= @temp_celsius %> degrees celsius).</h2>
+<h2>Current Temperature:<br> <%= @weather.temp_farenheit %> degrees Farenheit<br> (<%= @weather.temp_celsius %> degrees Celsius).</h2>
 
-<h2>Today's high: <br><%= @high_farenheit %> F (<%= @high_celsius %> C)</h2>
-<h2>Today's low: <br><%= @low_farenheit %> F (<%= @low_celsius %> C)</h2>
+<h2>Today's high: <br><%= @weather.high_farenheit %> F (<%= @weather.high_celsius %> C)</h2>
+<h2>Today's low: <br><%= @weather.low_farenheit %> F (<%= @weather.low_celsius %> C)</h2>
 
 
 
