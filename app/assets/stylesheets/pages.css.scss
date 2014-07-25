@@ -13,10 +13,6 @@ h1, h2{
   background-image: image-url("thunderstorm.png");
   color: white;
 }
-.drizzle{
-  background-image: image-url("drizzle.png");
-  color: white;
-}
 .rain{
   background-image: image-url("rain.png");
   color: white;
@@ -33,7 +29,7 @@ h1, h2{
   background-image: image-url("extreme-weather.png");
   color: white;
 }
-.clouds{
+.cloudy{
   background-image: image-url("cloudy.png");
   color: white;
 }
@@ -41,31 +37,23 @@ h1, h2{
   background-image: image-url("extreme-weather.png");
   color: white;
 }
-.cold{
-  background-image: image-url("cold.png");
-  color: black;
-}
-.hot{
-  background-image: image-url("hot.png");
-  color: black;
-}
 .wind{
   background-image: image-url("wind.png");
   color: black;
 }
-.hail{
+.hail, .sleet{
   background-image: image-url("hail.png");
   color: black;
 }
-.sunny{
+.clear-day{
   background-image: image-url("sunny.png");
   color: black ;
 }
-
-
-
-
-  
-
-
-
+.partly-cloudy-night{
+  background-image: image-url("cloudy-night-sky-1280x800.jpg");
+  color: white;
+}
+.clear-night{
+  background-image: image-url("pretty-night-sky.png");
+  color: white;
+}

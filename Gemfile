@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'open-weather'
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'unirest'
 gem 'geocoder'
 
 gem 'rails_12factor', group: :production
